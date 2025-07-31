@@ -1,0 +1,99 @@
+
+{
+  "title": "System Requirements",
+  "specs": [
+    {
+      "title": "Minimum Specs",
+      "fps": "30 FPS",
+      "color": "text-red-500",
+      "requirements": [
+        {
+          "title": "OS",
+          "values": ["Windows 10 (Build 17134+)"]
+        },
+        {
+          "title": "OS ARCHITECTURE",
+          "values": ["x64"]
+        },
+        {
+          "title": "CPU",
+          "values": ["Intel Core 2 Duo E8400", "AMD Athlon 200GE"]
+        },
+        {
+          "title": "GPU",
+          "values": [
+            "NVIDIA GeForce GT 420M",
+            "AMD Radeon R5 200",
+            "Intel HD Graphics 4000"
+          ]
+        },
+        {
+          "title": "GPU FEATURES",
+          "values": ["DirectX 11, Shader Model 5.0"]
+        }
+      ]
+    },
+    {
+      "title": "Recommended Specs",
+      "fps": "60 FPS",
+      "color": "text-red-500",
+      "requirements": [
+        {
+          "title": "OS",
+          "values": ["Windows 10 (Build 17134+)", "Windows 11"]
+        },
+        {
+          "title": "OS ARCHITECTURE",
+          "values": ["x64"]
+        },
+        {
+          "title": "CPU",
+          "values": ["Intel Core i3-4150", "AMD Ryzen 3 1200"]
+        },
+        {
+          "title": "GPU",
+          "values": [
+            "NVIDIA GeForce GT 730",
+            "AMD Radeon R7 240",
+            "Intel Arc A380/A350M"
+          ]
+        },
+        {
+          "title": "GPU FEATURES",
+          "values": ["DirectX 11, Shader Model 5.0"]
+        }
+      ]
+    },
+    {
+      "title": "High-end Specs",
+      "fps": "144+ FPS",
+      "color": "text-red-500",
+      "requirements": [
+        {
+          "title": "OS",
+          "values": ["Windows 10 (Build 17134+)", "Windows 11"]
+        },
+        {
+          "title": "OS ARCHITECTURE",
+          "values": ["x64"]
+        },
+        {
+          "title": "CPU",
+          "values": ["Intel Core i5-9400F", "AMD Ryzen 5 2600X"]
+        },
+        {
+          "title": "GPU",
+          "values": [
+            "NVIDIA GeForce GTX 1050 Ti",
+            "AMD Radeon R7 370",
+            "Intel Arc A750"
+          ]
+        },
+        {
+          "title": "GPU FEATURES",
+          "values": ["DirectX 11, Shader Model 5.0"]
+        }
+      ]
+    }
+  ]
+}

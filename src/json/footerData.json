@@ -1,0 +1,15 @@
+{
+  "platforms": [
+    { "icon": "FaWindows", "label": "Windows" },
+    { "icon": "FaVrCardboard", "label": "VR" }
+  ],
+  "details": {
+    "website": {
+      "label": "sweetstakes.org",
+      "url": "https://sweetstakes.org"
+    },
+    "developer": "SweetStakes",
+    "publisher": "SweetStakes",
+    "releaseDate": "July 27, 2025"
+  }
+}

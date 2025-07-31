@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Electron App",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/node_modules/.bin/electron",
+      "args": ["."],
+      "runtimeExecutable": null,
+      "env": {
+        "PATH": "C:\\Users\\ronit\\source\\repos\\Patcher\\Patcher\\vcpkg\\installed\\x64-windows\\bin;${env:PATH}"
+      },
+      "windows": {
+        "command": "cmd.exe"
+      },
+      "console": "integratedTerminal"
+    }
+  ]
+}

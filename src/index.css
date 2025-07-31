@@ -1,0 +1,85 @@
+/* Tailwind CSS base, components, and utilities */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.glow-button {
+  background-color: #00326d;
+  color: #ffffff;
+  border: 3px solid #7bebfc; /* Sky blue border */
+  border-radius: 99px; /* Pill shape */
+  padding: 12px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 0 8px #7bebfc, 0 0 12px #7bebfc, 0 0 16px #53e4fb;
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.glow-button:hover {
+  box-shadow: 0 0 12px #82f0fe, 0 0 24px #82f0fe, 0 0 45px #82f0fe;
+  transform: translateY(-2px);
+  cursor: pointer;
+}
+
+:root {
+  --sweetstake-dark: #060a23;
+}
+/* Custom global styles */
+
+
+/* Drag area for Electron title bar */
+.title-bar {
+  -webkit-app-region: drag;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--title-bar-height, 32px);
+  padding: 0 12px;
+  background-color: #121212;
+  color: white;
+  user-select: none;
+}
+
+/* Prevent buttons inside title bar from being draggable */
+.title-bar button,
+.title-bar .no-drag {
+  -webkit-app-region: no-drag;
+  cursor: pointer;
+} /* Custom hidden scrollbar */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+body {
+  user-select: none;
+  -webkit-user-select: none; /* Safari/Chrome */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+  
+}
+.title-bar {
+  -webkit-app-region: drag;
+  background-color: transparent;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  user-select: none;
+}
+.no-drag {
+  -webkit-app-region: no-drag;
+}

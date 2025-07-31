@@ -1,0 +1,8 @@
+node_modules/
+build/
+temp/
+cpp/vcpkg/
+dist/
+Game/
+Cache/
+bin/
